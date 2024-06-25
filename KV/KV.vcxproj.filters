@@ -39,6 +39,9 @@
     <ClCompile Include="search.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="update.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">

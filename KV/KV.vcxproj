@@ -135,6 +135,7 @@
     <ClCompile Include="readFile.c" />
     <ClCompile Include="search.c" />
     <ClCompile Include="sort.c" />
+    <ClCompile Include="update.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

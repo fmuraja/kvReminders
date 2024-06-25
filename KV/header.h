@@ -31,3 +31,4 @@ void deleteFile();
 void deleteReminder(pokReminder, reminderCount, reminders, listType);
 void sort(pokReminder, reminderCount, reminders);
 void simpleList(pokReminder, reminderCount, reminders);
+void update(pokReminder, reminderCount, reminders, listType);

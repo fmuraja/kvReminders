@@ -1,6 +1,6 @@
-mat 1|derivacije
-|29.6.2024
-prog|dovrsi sortiranje
-|1.7.2024
-mat 2|integrali
-|12.7.2024
+aa|aaa
+|2.2.2024
+mat 2|int
+|16.6.2024
+bbbb|bbbbb
+|1.8.2024

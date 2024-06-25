@@ -5,7 +5,7 @@
 
 int menu(int izbor, REMINDER* pokReminder, int reminderCount, REMINDER reminders, int listType) {
 	printf("\nIzbornik\n");
-	printf("\n1. Dodaj \n2. Ispis \n3. Obrisi podsjetnik \n4. Obrisi sve \n5. Pretraga\n6. Izlaz iz programa\n");
+	printf("\n1. Dodaj \n2. Ispis \n3. Obrisi podsjetnik \n4. Obrisi sve \n5. Pretraga\n6. Izmjena podsjetnika\n7. Izlaz iz programa\n");
 
 	if (scanf("%d", &izbor) != 1) {
 		printf("\033[2J\033[1;1H");
@@ -45,7 +45,13 @@ int menu(int izbor, REMINDER* pokReminder, int reminderCount, REMINDER reminders
 		listType = 0;
 		return izbor;
 	}
-	case 6 : {
+	case 6: {
+		printf("\033[2J\033[1;1H");
+		update(pokReminder, reminderCount, reminders, listType);
+		return izbor;
+
+	}
+	case 7 : {
 		
 		free(pokReminder);
 		exit(0);
